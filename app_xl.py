@@ -3,6 +3,8 @@ import pyautogui
 from time import sleep
 import openpyxl
 
+# ENVIANDO MENSAGEM A PARTIR DE UM ARQUIVO XLSX
+
 clientes = openpyxl.load_workbook('')  # arquivo a ser carregado
 pagina_contatos = clientes['']  # selecionar a pagina
 
