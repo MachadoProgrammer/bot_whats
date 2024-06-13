@@ -4,6 +4,14 @@ from time import sleep
 
 # https://api.whatsapp.com/send?phone=
 # API do whats
+# Selecionar o contato
+# Abrir o navegador
+# Clicar no botão que autoriza a abertura do Aplicativo do WhatsApp
+# Ativar o campo de texto
+# Escrever Mensagem
+# Enviar Mensagem
+# Fechando o navegador para evitar o travamento do browser (evitar 1. múltiplas abas abertas)
+# Pausa de 300 segundos entre cada envio à fim de evitar o bloqueio do bot
 
 # Opção 1 (descomentar a opção desejada)
 # telefones = [5548995853584, 554799558685, 5547558896584]
