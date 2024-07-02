@@ -31,6 +31,7 @@ for telefone in telefones:
     pyautogui.typewrite('Gostaria de participar do nosso evento?(digite sim, se gostaria de participar.')
     sleep(5)
     pyautogui.press('enter')
+    pyautogui.hotkey('ctrl', 'w')
     sleep(300)
 
 # f'https://api.whatsapp.com/send?phone={telefone}&text={mensagem}

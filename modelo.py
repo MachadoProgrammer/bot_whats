@@ -26,5 +26,5 @@ for linha in pagina_contatos.iter_rows(min_row=2, values_only=True):
     sleep(5)
 
     # Fecha a aba
-    pyautogui.hotkey('ctrl', 'v')
+    pyautogui.hotkey('ctrl', 'w')
     sleep(3)
